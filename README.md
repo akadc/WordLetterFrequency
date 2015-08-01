@@ -1,0 +1,2 @@
+Created By David Capalbo (7/25/2015)
+Purpose: To analyze a file-based string of words to determine which which word has the highest frequency of any one letter out of all other words, ordered by original input position. 
