@@ -1,5 +1,6 @@
 #Word Letter Frequency
 
-The purpose of this repo is to create concise algorithms that analyze a file-based string of words to determine which word has the highest frequency of any one letter out of all other words, ordered by original input position. 
+Just having fun trying to make the most efficient algorithm in multiple languages in order to complete the following arbitrary task:
 
-Multiple languages will be used.
+Take a file based string and return the first occurring word in which no other word has a greater frequency of any one letter. 
+Display the word, the first-occurring highest frequency letter in the word and the letter frequency.
