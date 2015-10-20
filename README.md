@@ -5,7 +5,7 @@ Just having fun trying to make the most efficient algorithm in multiple language
 Take a file based string and return the first occurring word in which no other word has a greater frequency of any one letter. 
 Display the word, the first-occurring highest frequency letter in the word and the letter frequency.
 
-Languages completed:
+Languages attempted:
 
 - PHP
 
