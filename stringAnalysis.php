@@ -72,7 +72,7 @@
 					// get first occuring, most frequent letter in word.
 					$thisWinningLetter = $this->mostFreqLetter($thisCleanWord);
 					// set new winning word if this words most frequent letter occurs more than the current winning letter frequency, or if the letter frequency is a tie with the winner but was originally positined before winner
-					if ($thisWinningLetter['count']>$winningWord['count'] && (!!is_int($winningWord['opos']) || $thisOrigPos < $winningWord['opos'])){
+					if ($thisWinningLetter['count']>$winningWord['count'] || ($thisWinningLetter['count']===$winningWord['count'] && $thisOrigPos < $winningWord['opos'])){
 						// save letter, user input word (Dirty), count and position for later use
 						$winningWord['letter'] = $thisWinningLetter['letter'];
 						$winningWord['word'] = $wordArray[$i]['dirty'];
