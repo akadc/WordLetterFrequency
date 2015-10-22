@@ -12,8 +12,7 @@
 		// configuration 
 		$filePath = 'text.txt';
 		// editing below voids the warranty
-		$result = '';
-		// only continue if path to valid & accessible file is being passed 
+		// only continue if path to file valid & accessible
 		if (strlen($filePath) && is_readable($filePath)){
 			// get file content 
 			$fileContent = trim(file_get_contents($filePath));
@@ -24,11 +23,11 @@
 				$stringAnalysis = new stringAnalysis();
 				// get the winning word
 				$winningWord = $stringAnalysis->getWinningWordLetter($fileContent);
-				// report on current status of analysis:
+				//  no winning word determined from text file
 				if ($winningWord['count'] === 0){
 					throw new Exception("word analysis function couldn't determine outcome");
 				}
-				// display results
+				// display winning word
 				else {
 					print '"' . $winningWord['word'] . '" is the first occuring word in which no other word has a greater frequency of any one letter ("'. $winningWord['letter'] . '" occurs ' . $winningWord['count'] . ' times in the word.)';
 				}
@@ -38,7 +37,7 @@
 				throw new Exception("supplied file doesn't have usable content");
 			}
 		}
-		// path is not accessable / readable
+		// file path is not accessable / readable
 		else{
 			throw new Exception("file path doesn't exist or isn't accessable");
 		}

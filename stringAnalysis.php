@@ -53,7 +53,7 @@
 		/**
 		 * main function used to determine which first-occuring word has a letter with the most frequent occurances, out of every other word
 		 * 
-		 * @param array $wordsString = a string of words to be analyzed
+		 * @param string $wordsString = a string of words to be analyzed
 		 * @return array $winningWord = an array containing information about the first-occuring word with the highest frequency letter occurance out of any other word - having the following keyss: 
 		 * letter = most frequent letter, word = the word, count = the count of the first-occuring most frequent letter, opos = the original position of the word
 		 */
