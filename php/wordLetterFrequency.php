@@ -10,7 +10,7 @@
 	set_error_handler('eHandle');
 	try {
 		// configuration 
-		$filePath = 'text.txt';
+		$filePath = '../text.txt';
 		// editing below voids the warranty
 		// only continue if path to file valid & accessible
 		if (strlen($filePath) && is_readable($filePath)){
