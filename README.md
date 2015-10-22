@@ -8,8 +8,8 @@ Display the word, the first-occurring highest frequency letter in the word and t
 Languages attempted:
 
 - PHP
+- Python
 
 Languages Pending: 
 
-- Python
 - Go
