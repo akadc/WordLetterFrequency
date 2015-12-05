@@ -9,7 +9,4 @@ Languages attempted:
 
 - PHP
 - Python
-
-Languages Pending: 
-
 - Go
